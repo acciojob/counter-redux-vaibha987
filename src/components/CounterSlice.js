@@ -1,4 +1,4 @@
-import store from "./Store";
+import store from "../Store";
 import { createSlice } from '@reduxjs/toolkit';
 
 const counterSlice=createSlice({
