@@ -15,7 +15,7 @@ const Home = () => {
   }
   return (
     <>
-    <p>{count}</p>
+    <h1>{count}</h1>
     <button onClick={handleIncrement}>increment</button>
     <button onClick={handleDecrement}>decrement</button>
     </>
